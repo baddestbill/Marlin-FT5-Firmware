@@ -492,7 +492,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.72, 79.72, 396.63, 406.58 }  //changed E0 from 105 to 428.44 for titan extruder with pancake motor
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 406.58 }  //changed E0 for titan extruder with pancake motor
 
 /**
  * Default Max Feed Rate (mm/s)
